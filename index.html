@@ -1,5 +1,7 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -7,12 +9,45 @@
     <title>Code Quiz</title>
     <link rel="stylesheet" href="Assest/style.css"/>
 </head>
+
 <body>
-    <header>
-    <h1>Coding Quiz Challenge</h1>
-    </header>
-    <p>Try to answer the following code related questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by 10 seconds!</p>
-        <button id="Start" class="btn">StartQuiz</button>
+    
+    <div class="timer">Timer</div>
+
+            <div class ="Start">
+        
+
+        <header>
+            <h1>James Bond Quiz</h1>
+        </header>
+    
+        <p>Answer the following trivia questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by 10 seconds!</p>
+        
+    <button id="startGame">Start Quiz</button>
+
+        </div>
+    
+        <div class="Questions">
+        <h1><span id="current">Question</span></h1>
+
+        <div id="feedback">
+            <div id="rightOrWrong"></div>
+            <div>Right Answers: <span id="rightCount"></span></div>
+            <div>Wrong Answers: <span id="wrongCount"></span></div>
+        </div>
+    
+        <div id="buttonBox">
+        </div>
+
+        </div>
+        
+        <div class="resultBox">
+            </div>
+            
+        </div>
+
+
+
 </body>
 
 
